@@ -54,25 +54,26 @@ Provides a high-level view of CRM sales and call performance.
 
 Analyzes agent-level and team-level performance.
 
-<a href = "https://github.com/Divakar30/CRM-Call-Center-Analytics-Power-BI/blob/main/02_Agent_Performance.png">View_Agent_Performance</a>
+![Agent Performance](https://raw.githubusercontent.com/Divakar30/CRM-Call-Center-Analytics-Power-BI/main/02_Agent_Performance.png)
 
 ### 3. Campaign Analysis
 
 Analyzes campaign performance, dialing modes, monthly sales, and geographic sales distribution.
 
-<a href = "https://github.com/Divakar30/CRM-Call-Center-Analytics-Power-BI/blob/main/03_Campaign_Analysis.png">View_Campaign_Analysis</a>
+![Campaign Analysis](https://raw.githubusercontent.com/Divakar30/CRM-Call-Center-Analytics-Power-BI/main/03_Campaign_Analysis.png)
+
 
 ### 4. Customer Insights
 
 Provides customer-level demographic and financial analysis.
 
-<a href = "https://github.com/Divakar30/CRM-Call-Center-Analytics-Power-BI/blob/main/04_Customer_Insights.png">View_Customer_Insights</a>
+![Customer Insights](https://raw.githubusercontent.com/Divakar30/CRM-Call-Center-Analytics-Power-BI/main/04_Customer_Insights.png)
 
 ### 5. Call & Disposition Analysis
 
 Analyzes call outcomes, disposition trends, call attempts, and QA performance.
 
-<a href = "https://github.com/Divakar30/CRM-Call-Center-Analytics-Power-BI/blob/main/05_Call_Disposition_Analysis.png">View_Call_Disposition_Analysis</a>
+![Call & Disposition Analysis](https://raw.githubusercontent.com/Divakar30/CRM-Call-Center-Analytics-Power-BI/main/05_Call_Disposition_Analysis.png)
 
 ---
 
