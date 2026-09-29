@@ -120,65 +120,43 @@ Analyzes call outcomes, disposition trends, call attempts, and QA performance.
 
 ## Important DAX Measures
 
-**### Total Sales**
+   Total Sales =
+   CALCULATE(
+        COUNTROWS(Terminal_Records),
+        Terminal_Records[Disp_Code] IN {1001, 1002}
+    )
 
-```DAX
-Total Sales =
-CALCULATE(
-    COUNTROWS(Terminal_Records),
-    Terminal_Records[Disp_Code] IN {1001, 1002}
-)
+    Sales Conversion % =
+    DIVIDE(
+        [Total Sales],
+        [Answered Calls],
+        0
+    )
 
-### Sales Conversion %
+    Answer Rate % =
+    DIVIDE(
+        [Answered Calls],
+        [Total Calls],
+        0
+    )
 
-```DAX
-Sales Conversion % =
-DIVIDE(
-    [Total Sales],
-    [Answered Calls],
-    0
-)
+    Previous Month Sales =
+    CALCULATE(
+        [Total Sales],
+        DATEADD(Date_Table[Date], -1, MONTH)
+    )
 
-### Answer Rate %
+    Monthly Sales Change =
+    [Total Sales] - [Previous Month Sales]
 
-```DAX
-Answer Rate % =
-DIVIDE(
-    [Answered Calls],
-    [Total Calls],
-    0
-)
+    Total Customers =
+    DISTINCTCOUNT(Callable_Records[Mobile_No])
 
-### Previous Month Sales
-
-```DAX
-Previous Month Sales =
-CALCULATE(
-    [Total Sales],
-    DATEADD(Date_Table[Date], -1, MONTH)
-)
-
-### Monthly Sales Change
-
-```DAX
-Monthly Sales Change =
-[Total Sales] - [Previous Month Sales]
-
-### Total Customers
-
-```DAX
-Total Customers =
-DISTINCTCOUNT(Callable_Records[Mobile_No])
-
-### Avg Annual Income
-
-```DAX
-Avg Annual Income =
-AVERAGEX(
-    VALUES(Callable_Records[Mobile_No]),
-    CALCULATE(MAX(Callable_Records[Annual_Income]))
-)
-
+    Avg Annual Income =
+    AVERAGEX(
+        VALUES(Callable_Records[Mobile_No]),
+        CALCULATE(MAX(Callable_Records[Annual_Income]))
+    )
 ---
 
 ## Key Business Insights
