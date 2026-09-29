@@ -122,7 +122,7 @@ Analyzes call outcomes, disposition trends, call attempts, and QA performance.
 
 ### Total Sales
 
---DAX
+```DAX
 Total Sales =
 CALCULATE(
     COUNTROWS(Terminal_Records),
