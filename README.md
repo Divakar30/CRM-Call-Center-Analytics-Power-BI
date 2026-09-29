@@ -48,23 +48,31 @@ The objective of this project is to provide a consolidated analytical view of CR
 
 Provides a high-level view of CRM sales and call performance.
 
-<a href = "https://github.com/Divakar30/CRM-Call-Center-Analytics-Power-BI/blob/main/01_CRM_Overview.png">CRM_OVerview</a>
+<a href = "https://github.com/Divakar30/CRM-Call-Center-Analytics-Power-BI/blob/main/01_CRM_Overview.png">View_CRM_OVerview</a>
 
 ### 2. Agent Performance
 
 Analyzes agent-level and team-level performance.
 
+<a href = "https://github.com/Divakar30/CRM-Call-Center-Analytics-Power-BI/blob/main/02_Agent_Performance.png">View_Agent_Performance</a>
+
 ### 3. Campaign Analysis
 
 Analyzes campaign performance, dialing modes, monthly sales, and geographic sales distribution.
+
+<a href = "https://github.com/Divakar30/CRM-Call-Center-Analytics-Power-BI/blob/main/03_Campaign_Analysis.png">View_Campaign_Analysis</a>
 
 ### 4. Customer Insights
 
 Provides customer-level demographic and financial analysis.
 
+<a href = "https://github.com/Divakar30/CRM-Call-Center-Analytics-Power-BI/blob/main/04_Customer_Insights.png">View_Customer_Insights</a>
+
 ### 5. Call & Disposition Analysis
 
 Analyzes call outcomes, disposition trends, call attempts, and QA performance.
+
+<a href = "https://github.com/Divakar30/CRM-Call-Center-Analytics-Power-BI/blob/main/05_Call_Disposition_Analysis.png">View_Call_Disposition_Analysis</a>
 
 ---
 
