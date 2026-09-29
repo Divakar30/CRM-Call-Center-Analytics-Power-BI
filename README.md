@@ -119,16 +119,16 @@ Analyzes call outcomes, disposition trends, call attempts, and QA performance.
 
 ## Important DAX Measures
 
-```DAX
-**## Total Sales**
+**### Total Sales **
 
+```DAX
 Total Sales =
 CALCULATE(
     COUNTROWS(Terminal_Records),
     Terminal_Records[Disp_Code] IN {1001, 1002}
 )
 
-## Sales Conversion %
+### Sales Conversion %
 
 ```DAX
 Sales Conversion % =
