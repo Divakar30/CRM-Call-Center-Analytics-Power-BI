@@ -119,16 +119,16 @@ Analyzes call outcomes, disposition trends, call attempts, and QA performance.
 
 ## Important DAX Measures
 
-**### Total Sales **
+Total Sales
 
-```DAX
+--DAX
 Total Sales =
 CALCULATE(
     COUNTROWS(Terminal_Records),
     Terminal_Records[Disp_Code] IN {1001, 1002}
 )
 
-### Sales Conversion %
+Sales Conversion %
 
 ```DAX
 Sales Conversion % =
@@ -138,7 +138,7 @@ DIVIDE(
     0
 )
 
-### Answer Rate %
+Answer Rate %
 
 ```DAX
 Answer Rate % =
@@ -148,7 +148,7 @@ DIVIDE(
     0
 )
 
-### Previous Month Sales
+Previous Month Sales
 
 ```DAX
 Previous Month Sales =
@@ -157,19 +157,19 @@ CALCULATE(
     DATEADD(Date_Table[Date], -1, MONTH)
 )
 
-### Monthly Sales Change
+Monthly Sales Change
 
 ```DAX
 Monthly Sales Change =
 [Total Sales] - [Previous Month Sales]
 
-### Total Customers
+Total Customers
 
 ```DAX
 Total Customers =
 DISTINCTCOUNT(Callable_Records[Mobile_No])
 
-### Avg Annual Income
+Avg Annual Income
 
 ```DAX
 Avg Annual Income =
