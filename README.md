@@ -120,17 +120,17 @@ Analyzes call outcomes, disposition trends, call attempts, and QA performance.
 
 ## Important DAX Measures
 
+    Total Sales =
+    CALCULATE(
+        COUNTROWS(Terminal_Records),
+        Terminal_Records[Disp_Code] IN {1001, 1002}
+    )
+
     Sales Conversion % =
     DIVIDE(
         [Total Sales],
         [Answered Calls],
         0
-    )
-
-    Total Sales =
-    CALCULATE(
-        COUNTROWS(Terminal_Records),
-        Terminal_Records[Disp_Code] IN {1001, 1002}
     )
 
     Answer Rate % =
