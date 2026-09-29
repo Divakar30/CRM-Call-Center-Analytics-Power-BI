@@ -49,6 +49,7 @@ The objective of this project is to provide a consolidated analytical view of CR
 Provides a high-level view of CRM sales and call performance.
 
 <a href = "https://github.com/Divakar30/CRM-Call-Center-Analytics-Power-BI/blob/main/01_CRM_Overview.png">View_CRM_OVerview</a>
+![CRM Overview]("https://github.com/Divakar30/CRM-Call-Center-Analytics-Power-BI/blob/main/01_CRM_Overview.png"))
 
 ### 2. Agent Performance
 
