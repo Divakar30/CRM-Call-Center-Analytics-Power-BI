@@ -120,7 +120,7 @@ Analyzes call outcomes, disposition trends, call attempts, and QA performance.
 
 ## Important DAX Measures
 
-### Total Sales
+**### Total Sales**
 
 ```DAX
 Total Sales =
